@@ -97,6 +97,10 @@ a{
     font-family: 'Roboto', sans-serif;
     margin-right: 300px;
 }
+.header__btn:hover{
+    background: linear-gradient(320.69deg, #6d8324 15.36%, #cdf157 84.86%);
+    transition: 1s;
+}
 .product{
     padding: 0 0 200px;
 }
@@ -109,8 +113,30 @@ a{
     grid-gap: 20px;
 }
 .product__chapter{
+    width: 360px;
+    height: 618px;
+    position: relative;
     box-shadow: 10px 10px 35px rgba(190, 191, 183, 0.1);
-
+}
+.product__chapter-hover--1,
+.product__chapter-hover--2,
+.product__chapter-hover--3,
+.product__chapter-hover--4{
+    display: none;
+    position: absolute;
+    left: 30px;
+    top: -40px;
+    margin-bottom: -77px;
+}
+.product__chapter:hover .product__img--1,
+.product__chapter:hover .product__img--2,
+.product__chapter:hover .product__img--3,
+.product__chapter:hover .product__img--4{
+    opacity: 0;
+}
+.product__chapter:hover .product__chapter-hover--1,.product__chapter:hover .product__chapter-hover--2,
+.product__chapter:hover .product__chapter-hover--3,.product__chapter:hover .product__chapter-hover--4{
+    display: block;
 }
 .product__img--1{
     margin: 39px 46px 46px 28px;
@@ -210,6 +236,7 @@ a{
     display: flex;
     justify-content: space-between;
     margin-bottom: 110px;
+    position: relative;
 }
 .about-us__green-bg{
     width: 195px;
@@ -218,8 +245,8 @@ a{
 }
 .about-us__img-1{
     position: absolute;
-    left: 253px;
-    top: 1950px;
+    left: 52px;
+    top: -36px;
 }
 .about-us__who-we-are-text-1{
     max-width: 922px;
@@ -242,6 +269,7 @@ a{
 .about-us__what-we-do{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .about-us__what-we-do-text-2{
     padding: 74px 85px 76px 48px;
@@ -251,6 +279,6 @@ a{
 }
 .about-us__img-2{
     position: absolute;
-    right: 242px;
-    top: 2410px;
+    right: 55px;
+    top: -35px;
 }
