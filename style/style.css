@@ -1,0 +1,256 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    color: #4A4A4A;
+    padding: 0;
+    margin: 0;
+}
+.title{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+}
+h3{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header{
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.header__inner{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    margin-top: 57px;
+    margin-bottom: 230px;
+    align-items: center;
+}
+.menu__list{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.menu__item{
+    margin-left: 63px;
+    font-size: 20px;
+    color: #688800;
+    line-height: 100%;
+    list-style-type: none;
+}
+.menu__basket{
+    margin-left: 204px;
+}
+.header__title{
+    font-family: 'Amatic SC', cursive;
+    font-family: 400;
+    font-size: 67px;
+    line-height: 125%;
+    text-align: right;
+    margin-bottom: 0;
+    margin-right: 100px;
+}
+.header__content{
+    margin-bottom: auto;
+    text-align: right;
+}
+.header__descr{
+    font-size: 21px;
+    line-height: 73%;
+    margin-right: 166px;
+    margin-bottom: 65px;
+}
+.header__btn{
+    max-width: 424px;
+    height: 69px;
+    border-radius: 65px;
+    background: linear-gradient(320.69deg, #536614 15.36%, #97C20B 84.86%);
+    padding: 15px 38px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 300px;
+}
+.product{
+    padding: 0 0 200px;
+}
+.product__title{
+    margin-bottom: 118px;
+}
+.product__inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.product__chapter{
+    box-shadow: 10px 10px 35px rgba(190, 191, 183, 0.1);
+
+}
+.product__img--1{
+    margin: 39px 46px 46px 28px;
+}
+.product__img--2{
+    margin: 40px 66px 43px 65px;
+}
+.product__img--3{
+    margin: 62px 41px 43px 34px;
+}
+.product__img--4{
+    margin: 24px 88px 23px 108px;
+}
+.product__name{
+   font-weight: 700;
+   font-family: 'Amatic SC', cursive;
+   font-size: 35px;
+   line-height: 125%;
+   text-align: center;
+   margin-bottom: 16px;
+}
+.product__name--1{
+    color: #688800;
+}
+.product__name--2{
+    color: #009246;
+}
+.product__name--3{
+    color: #D73A31;
+}
+.product__name--4{
+    color: #E67F10;
+}
+.product__wrapper{
+    margin: 0 24px 36px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 312px;
+    height: 253px;
+}
+.product__description{
+    line-height: 21.25px;
+}
+.product__description--color{
+    color: #688800;
+}
+.product__link{
+    padding: 14px 27px;
+    border: 1.3px solid;
+    width: 250px;
+    height: 41px;
+    margin: 0 auto;
+    border-radius: 65px;
+}
+.product__link--1{
+    color: #688800;
+}
+.product__link--2{
+    color: #009246;
+}
+.product__link--3{
+    color: #D73A31;
+}
+.product__link--4{
+    color: #E67F10;
+}
+.product__link--1:hover{
+    background-color: #688800;
+    color: #fff;
+    transition: 0.3s;
+}
+.product__link--2:hover{
+    background-color: #009246;
+    color: #fff;
+    transition: 0.3s;
+}
+.product__link--3:hover{
+    background-color: #D73A31;
+    color: #fff;
+    transition: 0.3s;
+}
+.product__link--4:hover{
+    background-color: #E67F10;
+    color: #fff;
+    transition: 0.3s;
+}
+.about-us{
+    margin-bottom: 160px;
+}
+.about-us__title{
+    margin-bottom: 117px;
+    color: #D73A31;
+}
+.about-us__who-we-are{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.about-us__green-bg{
+    width: 195px;
+    height: 357px;
+    background-color: #688800;
+}
+.about-us__img-1{
+    position: absolute;
+    left: 253px;
+    top: 1950px;
+}
+.about-us__who-we-are-text-1{
+    max-width: 922px;
+    height: 357px;
+    padding: 47px 75px 69px 99px;
+    box-shadow: 10px 10px 35px rgba(190, 191, 183, 0.1);
+}
+.about-us__subtitle{
+    color: #688800;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 43px;
+}
+.about-us__desc{
+    font-size: 19px;
+    line-height: 28px;
+}
+.about-us__what-we-do{
+    display: flex;
+    justify-content: space-between;
+}
+.about-us__what-we-do-text-2{
+    padding: 74px 85px 76px 48px;
+    box-shadow: 10px 10px 35px rgba(190, 191, 183, 0.1);
+    max-width: 922px;
+    height: 357px;
+}
+.about-us__img-2{
+    position: absolute;
+    right: 242px;
+    top: 2410px;
+}
