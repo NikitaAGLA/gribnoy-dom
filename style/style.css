@@ -474,6 +474,10 @@ a{
 .footer__link{
     margin: 0 24px;
 }
+.contacts__address{
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 
 
