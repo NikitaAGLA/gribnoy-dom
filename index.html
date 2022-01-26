@@ -12,55 +12,129 @@
     <title>Грибной дом</title>
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="container">
 
             <div class="header__inner">
+                <div class="header__img-block">
+                    <img class="header__img" src="images/header-img.svg" alt="img">
+                </div>  
 
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a class="menu__link" href="#">Наша продукция</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#">О нас</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#">Лицензии</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#">Оплата и доставка</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#">Контакты</a>
-                        </li>
-                    </ul>
+                <div class="menu__content">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Наша продукция</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">О нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Оплата и доставка</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+
+                        <div class="menu__basket">
+                            <a class="menu__basket-link" href="">
+                                <img src="images/basket.svg" alt="basket">
+                            </a>
+                        </div>
+                    </nav>
+                    
+                    <div class="header__content-text">
+                        <h1 class="header__title">Центр грибоводчества “Грибной дом”</h1>
+
+                        <div class="header__content">
+                            <p class="header__descr">
+                                Многолетний опыт, передовые технологии, любовь к своей работе...
+                            </p>
+                            <a class="header__btn" href="#">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</a>
+                        </div>
+                    </div>
+                </div>
+                <img class="arrow" src="images/arrow.svg" alt="arrow">
+
+            </div>
+
+        </div>
+    </header> -->
+
+    <header class="header">
+
+        <div class="header__inner">
+
+            <div class="header__img-box">
+                <img class="header__img" src="images/header-img.svg" alt="img">
+                <img class="header__logo" src="images/logo.svg" alt="logo">
+            </div>
+
+            <div class="header__content-box">
+
+                <div class="header__content-top">
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span class="row"></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__item menu__item--basket">
+                                <a class="menu__link menu__link--basket" href="#">
+                                    <div>
+                                        <!-- <p>Корзина</p> -->
+                                        <img src="images/basket-mob.svg" alt="img">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Наша продукция</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">О нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Оплата и доставка</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Контакты</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
 
                     <div class="menu__basket">
                         <a class="menu__basket-link" href="">
                             <img src="images/basket.svg" alt="basket">
                         </a>
                     </div>
-                </nav>
+                </div>
 
-                <h1 class="header__title">Центр грибоводчества “Грибной дом”</h1>
-
-                <div class="header__content">
+                <div class="header__content-text">
+                    <h1 class="header__content-title"><span class="desktop">Центр грибоводчества </span>“Грибной дом”</h1>
                     <p class="header__descr">
                         Многолетний опыт, передовые технологии, любовь к своей работе...
+                    </p>
+                    <p class="header__descr-mob">
+                        Центр Грибоводчества
                     </p>
                     <a class="header__btn" href="#">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</a>
                 </div>
 
-                <img class="arrow" src="images/arrow.svg" alt="arrow">
-                <!-- <a class="arrow-top" href="#">
-                    <img class="arrow-top-img" src="images/arrow-hover.svg" alt="arrow">
-                </a> -->
-
             </div>
 
         </div>
+
+        <img class="arrow" src="images/arrow.svg" alt="arrow">
+
     </header>
+
     <main>
         <section class="product">
             <div class="container">
@@ -187,8 +261,8 @@
                 </div>
             </div>
 
-        </section>>
-        <section class="contacts">
+        </section>
+         <section class="contacts">
             <div class="container">
                 <h2 class="contacts__title title">Контакты</h2>
                 <div class="contacts__inner">
@@ -257,5 +331,7 @@
 
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
